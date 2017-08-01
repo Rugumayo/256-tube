@@ -1,0 +1,133 @@
+html{
+	min-height:100%;
+	}
+	
+body{
+	background: url(../images/bg.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+/*Search Box*/
+#imaginary_container{
+    margin-top:30px;
+}
+
+.stylish-input-group{
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.56);
+}
+
+.stylish-input-group .input-group-addon{
+    background: #e6e6e6 !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+.portfolio-item {
+	padding-top: 40px;
+    margin-bottom: 25px;
+}
+
+.card{
+	background:#fff;
+	border:none;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.56);
+	-moz-border-radius-bottomleft:6px;
+	-moz-border-radius-bottomright:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px;
+	-moz-border-radius-topright:6px;
+	-moz-border-radius-topleft:6px;
+	-webkit-border-top-right-radius:6px;
+	-webkit-border-top-left-radius:6px;
+	border-top-left-radius:6px;
+	border-top-right-radius:6px;
+}
+
+.card img{
+border-top-right-radius: 6px;
+border-top-left-radius: 6px;
+-moz-border-radius-topleft:6px;
+-moz-border-radius-topright:6px;
+-webkit-border-top-right-radius:6px;
+-webkit-border-top-left-radius:6px;
+}
+
+.caption{
+	background:#fff;
+	border-top: 1px #ededed solid;
+	color:#444;
+	font-weight: bold;
+	text-align: center;
+	font-size: 13px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px; 
+	padding: 5px;
+}
+
+.searchlogo{
+	padding:0px;
+	background: #fff !important;
+	padding: 0px 5px;
+}
+
+.modal-lg {
+    width: 900px;
+}
+
+.modal-content
+{
+	border-radius: 4px;
+}
+
+
+.panel-title {
+    font-size: 14px;
+    color: inherit;
+    font-weight: bold;
+}
+
+video {
+    width: 100%;
+    height: 450px;
+    background:#000000;
+}
+
+/*Side bar menu*/
+.side-bar-container{
+	overflow-y: auto; overflow-x: hidden; height: 400px;
+	border-right: 1px solid #eee;
+}
+
+.folder{
+	color:#49a1ff !important;
+	font-size: 14px;
+}
+
+
+.side-bar-links{
+	font-size: 12px;
+	font-weight: 600;
+	color: #444;
+}
+
+.side-bar-links a{
+	color:#444;
+}
+
+/*
+.side-bar-links a:hover, a:focus{
+	background: transparent !important;
+	font-size: 12px;
+	padding: 5px 15px !important;
+	color: #818181;
+}*/

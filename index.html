@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>256 Tube</title>
+
+<!--Styles-->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="css/angular.treeview.css" rel="stylesheet">
+
+
+<!-- Custom CSS -->
+<link href="css/simple-sidebar.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<!--Angular--> 
+<script src="js/angular.js"></script>
+<script src="js/angular-route.js"></script> 
+<script src="js/angular.treeview.min.js"></script> 
+<script src="js/app.js"></script>
+<script src="js/controllers.js"></script> 
+</head>
+
+<body ng-app="myApp">
+<div id="wrapper"> 
+  
+  <!-- Sidebar -->
+  <div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand"> <a style="color:#ececec !important; line-height: 15px; padding:15px 0px;"> <img style="float:left; margin-left:15px;" src="images/default-profile.jpg" class="img-circle" width="30" height="30" alt="user profile"> <span style="display: block;font-size: 15px; font-weight: bold; text-indent: 5px;">Hakim Ramon</span> <span style="display: block;font-size: 11px; text-indent: 5px; margin-top: 3px;">200,000 UGX</span> </a> </li>
+      <li> <a href="#!/home"><i style="text-indent: 0px;" class="fa fa-th"></i> Home</a> </li>
+      <li> <a href="#"><i style="text-indent: 0px;" class="fa fa-user"></i> Profile</a> </li>
+      <li> <a href="#"><i style="text-indent: 0px;" class="fa fa-money"></i> Get Credit</a> </li>
+      <li> <a href="#"><i style="text-indent: 0px;" class="fa fa-clock-o"></i> Purchase History</a> </li>
+      <li> <a href="#"><i style="text-indent: 0px;" class="fa fa-support"></i> Help</a> </li>
+      <li> <a href="#"><i style="text-indent: 0px;" class="fa fa-sign-out"></i> Log Out</a> </li>
+    </ul>
+  </div>
+  <!-- /#sidebar-wrapper --> 
+  
+  <!-- Page Content -->
+<div id="page-content-wrapper"> 
+ <!--
+  <input type="text" ng-model="mydata" name="mydata">
+  <p>Hello: {{mydata}}</p>-->
+
+<div ng-view></div>
+</div>
+</div>
+<!-- /#page-content-wrapper --> 
+
+<!-- Modal -->
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"><i class="fa fa-tv"></i> My TV</h4>
+      </div>
+      <div class="modal-body">
+        <ul class="list-inline">
+       <li style="border: 1px solid #eee;padding: 10px;">
+       <a class="custom-close" href="#!/myTV"> <img src="tv_logos/nbs.jpg" width="50" height="50"></a>
+       </li>
+       <li style="border: 1px solid #eee;padding: 10px;">
+       <a class="custom-close" href="#!/nTV"> <img src="tv_logos/ntv.jpg" width="50" height="50"></a>
+       </li>
+       </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</div>
+<!-- /#wrapper --> 
+
+<!-- jQuery --> 
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript --> 
+<script src="js/bootstrap.min.js"></script> 
+
+
+<script>
+$(function () {
+    $(".custom-close").on('click', function() {
+        $('#myModal').modal('hide');
+    });
+});
+</script>
+
+</body>
+</html>

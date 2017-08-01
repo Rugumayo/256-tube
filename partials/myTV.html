@@ -1,0 +1,119 @@
+<div class="container-fluid"> 
+  <!--Top header-->
+  <div class="row">
+    <div class="col-md-1"> <a style="margin-bottom: 5px;" href="javascript:void(0);" ng-click="showMenu()" class="btn btn-default" id="menu-toggle"><i class="fa fa-bars"></i></a> </div>
+    <div class="col-md-6">
+      <div class="input-group stylish-input-group"> <span class="input-group-addon searchlogo" style="background:#fff !important"> <img src="images/256-logo.jpg" alt="256_logo"> </span>
+        <input type="text" class="form-control"  placeholder="Search" ng-model="name">
+        <span class="input-group-addon search-btn">
+        <button type="submit"> <span class="glyphicon glyphicon-search"></span> </button>
+        </span> </div>
+    </div>
+  </div>
+  <!--/Top header-->
+  
+  <div style="margin-top:20px;" class="row">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><i class="fa fa-television"></i> NBS TV</h3>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-md-3"> 
+              <!--Tree Menu Starts here-->
+              <div class="side-bar-container">
+               <a class="btn btn-danger" ng-click="liveStream('nbs')" href="javascript:void(0)">NBS TV LIVE</a>
+                <hr>
+                <h5 style="font-size: 15px; text-transform: uppercase; font-weight: bold;color: #444;margin-bottom: 15px;">Program Lineup</h5>
+                <ul class="nav nav-list side-bar-links">
+                  <li>
+                    <label style="cursor:pointer" class="tree-toggler nav-header"><i class="fa fa-folder folder"></i> CURRENT AFFAIRS</label>
+                    <ul class="nav nav-list tree">
+                              <li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample1.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> The Frontline</a></li>
+                              <li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample2.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> Amasengejje</a></li>
+                              <li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample2.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> Live At 9</a></li>
+<li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample2.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i>    Barometer</a></li>
+<li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample2.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> 
+ Barometer Extra</a></li>
+<li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample2.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i>
+Breakfast Meeting
+</a></li>
+<li><a a style="padding: 5px 15px;" ng-click="playvideo('media/sample2.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i>
+ Ensi nebyayo
+</a></li>
+<li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample2.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> 
+ Morning Breeze
+</a></li>
+<li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample2.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> 
+ NBS Extra</a></li>
+<li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample2.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i>
+NBS Investigates
+</a></li>
+<li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample2.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> 
+NBS Now</a></li>
+</ul>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <label class="tree-toggler nav-header"><i class="fa fa-folder folder"></i> ENTERTAINMENT</label>
+                    <ul class="nav nav-list tree">
+                              <li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample1.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> Girl Talk</a></li>
+                              <li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample1.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> Big Deal</a></li>
+                              <li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample1.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> Mix Up</a></li>
+</ul>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <label class="tree-toggler nav-header"><i class="fa fa-folder folder"></i> LIFSTYLE</label>
+                    <ul class="nav nav-list tree">
+                              <li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample1.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> Pundonor</a></li>
+                              <li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample1.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> Empeta</a></li>
+</ul>
+                  </li>
+                   <li class="divider"></li>
+                  <li>
+                    <label class="tree-toggler nav-header"><i class="fa fa-folder folder"></i> INSPIRATION</label>
+                    <ul class="nav nav-list tree">
+                              <li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample1.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> Mission 3:16</a></li>
+                              <li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample1.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> Podium</a></li>
+</ul>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <label class="tree-toggler nav-header"><i class="fa fa-folder folder"></i> MUSIC</label>
+                    <ul class="nav nav-list tree">
+                              <li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample1.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> After 5</a></li>
+                              <li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample1.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> HitMaker</a></li>
+</ul>
+                  </li>
+                  
+                  <li class="divider"></li>
+                  <li>
+                    <label class="tree-toggler nav-header"><i class="fa fa-folder folder"></i> SPORTS</label>
+                    <ul class="nav nav-list tree">
+                              <li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample1.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> Ekijjulo</a></li>
+                              <li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample1.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> Home & Away</a></li>
+                              <li><a style="padding: 5px 15px;" ng-click="playvideo('media/sample1.mp4')" href="javascript:void(0)"><i class="fa fa-film"></i> Lunchtime Sports</a></li>
+</ul>
+                  </li>
+                  
+                </ul>
+              </div>
+              <!--/Tree Menu Starts here--> 
+            </div>
+            <div class="col-md-9">
+                <div id="livestream">
+                <p id="nbslive" class="text text-danger"><i class="fa fa-times"></i> No live stream found!</p>
+                </div>
+                <video id="myPlayer"  controls  poster="images/videoplaceholder.jpg" autoplay>
+                <source id="myChannel" src="">
+                Your browser does not support the video tag. </video>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
